@@ -31,6 +31,11 @@ A powerful **Document Question Answering ChatBot** that allows you to upload PDF
 | **PyPDF** | 4.2+ | PDF text extraction |
 | **Python** | 3.8+ | Programming language |
 
+## 🧠 How It Works (RAG in action)
+1. **Ingestion**: Your PDF is split into chunks, each converted to a vector (embedding) and stored in FAISS.
+2. **Retrieval**: When you ask a question, it's converted to a vector and the most relevant chunks are found.
+3. **Generation**: Those chunks + your question are sent to Llama 3, which answers **only** from the provided context.
+
 ## 📋 Requirements
 
 - Python 3.8 or higher
