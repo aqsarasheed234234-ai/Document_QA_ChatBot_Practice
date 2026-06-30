@@ -62,6 +62,7 @@ A powerful **Document Question Answering ChatBot** that allows you to upload PDF
    `streamlit run app.py`
 
 ### 📁 Project File Structure
+
 ```
 Document_QA_ChatBot/
 ├── app.py                 # Main application
@@ -71,4 +72,5 @@ Document_QA_ChatBot/
 
 ```
 ---
+
 Made with ☕ and Python for developers who just want things to work.
